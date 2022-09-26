@@ -1,13 +1,8 @@
-let x = 4;
-let y = 8;
-let resultado = "";
+let atores = "Will Smith;Brad Pitt;Adam Sandler;Tom Cruise";
 
-if(x > y){
-    
-resultado = x * 4;
-}else{
-    
-resultado = x/2;
+let array_atores = atores.split(";");
+
+for (let ator of array_atores)
+{
+    console.log(ator);
 }
-
-console.log(resultado);
